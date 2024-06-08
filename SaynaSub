@@ -3,7 +3,7 @@
   [
     {
       "type": "wireguard",
-      "tag": "Warp-IR2",
+      "tag": "Sayna-IR2",
       "server": "188.114.98.82",
       "server_port": 8319,
 
@@ -20,8 +20,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main2",
-      "detour": "Warp-IR2",
+      "tag": "Sayna-Germany2",
+      "detour": "Sayna-IR2",
       "server": "188.114.98.82",
       "server_port": 8319,
       
@@ -36,7 +36,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR3",
+      "tag": "Sayna-IR3",
       "server": "162.159.195.128",
       "server_port": 8319,
 
@@ -53,8 +53,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main3",
-      "detour": "Warp-IR3",
+      "tag": "Sayna-Germany3",
+      "detour": "Sayna-IR3",
       "server": "162.159.195.128",
       "server_port": 8319,
       
@@ -69,7 +69,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR4",
+      "tag": "Sayna-IR4",
       "server": "162.159.195.174",
       "server_port": 987,
 
@@ -86,8 +86,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main4",
-      "detour": "Warp-IR4",
+      "tag": "Sayna-Germany4",
+      "detour": "Sayna-IR4",
       "server": "162.159.195.174",
       "server_port": 987,
       
@@ -102,7 +102,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR5",
+      "tag": "Sayna-IR5",
       "server": "188.114.98.149",
       "server_port": 987,
 
@@ -119,8 +119,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main5",
-      "detour": "Warp-IR5",
+      "tag": "Sayna-Germany5",
+      "detour": "Sayna-IR5",
       "server": "188.114.98.149",
       "server_port": 987,
       
@@ -135,7 +135,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR6",
+      "tag": "Sayna-IR6",
       "server": "188.114.97.124",
       "server_port": 987,
 
@@ -152,8 +152,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main6",
-      "detour": "Warp-IR6",
+      "tag": "Sayna-Germany6",
+      "detour": "Sayna-IR6",
       "server": "188.114.97.124",
       "server_port": 987,
       
@@ -168,7 +168,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR7",
+      "tag": "Sayna-IR7",
       "server": "188.114.99.68",
       "server_port": 987,
 
@@ -185,8 +185,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main7",
-      "detour": "Warp-IR7",
+      "tag": "Sayna-Germany7",
+      "detour": "Sayna-IR7",
       "server": "188.114.99.68",
       "server_port": 987,
       
@@ -201,7 +201,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR8",
+      "tag": "Sayna-IR8",
       "server": "162.159.195.232",
       "server_port": 8319,
 
@@ -218,8 +218,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main8",
-      "detour": "Warp-IR8",
+      "tag": "Sayna-Germany8",
+      "detour": "Sayna-IR8",
       "server": "162.159.195.232",
       "server_port": 8319,
       
@@ -234,7 +234,7 @@
       "mtu": 1120
     },{
       "type": "wireguard",
-      "tag": "Warp-IR9",
+      "tag": "Sayna-IR9",
       "server": "162.159.195.214",
       "server_port": 8319,
 
@@ -251,8 +251,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main9",
-      "detour": "Warp-IR9",
+      "tag": "Sayna-Germany9",
+      "detour": "Sayna-IR9",
       "server": "162.159.195.214",
       "server_port": 8319,
       
