@@ -1,0 +1,237 @@
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-IR2",
+      "server": "188.114.99.115",
+      "server_port": 864,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": ":de:M.Razazian-De2",
+      "detour": "M.Razazian-IR2",
+      "server": "188.114.99.115",
+      "server_port": 864,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    },{
+      "type": "wireguard",
+      "tag": "M.Razazian-IR3",
+      "server": "188.114.99.73",
+      "server_port": 864,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-De3",
+      "detour": "M.Razazian-IR3",
+      "server": "188.114.99.73",
+      "server_port": 864,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    },{
+      "type": "wireguard",
+      "tag": "M.Razazian-IR4",
+      "server": "188.114.99.18",
+      "server_port": 864,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-De4",
+      "detour": "M.Razazian-IR4",
+      "server": "188.114.99.18",
+      "server_port": 864,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    },{
+      "type": "wireguard",
+      "tag": "M.Razazian-IR5",
+      "server": "188.114.96.89",
+      "server_port": 939,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-De5",
+      "detour": "M.Razazian-IR5",
+      "server": "188.114.96.89",
+      "server_port": 939,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    },{
+      "type": "wireguard",
+      "tag": "M.Razazian-IR6",
+      "server": "188.114.99.18",
+      "server_port": 939,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-De6",
+      "detour": "M.Razazian-IR6",
+      "server": "188.114.99.18",
+      "server_port": 939,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    },{
+      "type": "wireguard",
+      "tag": "M.Razazian-IR7",
+      "server": "188.114.96.84",
+      "server_port": 864,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-De7",
+      "detour": "M.Razazian-IR7",
+      "server": "188.114.96.84",
+      "server_port": 864,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    },{
+      "type": "wireguard",
+      "tag": "M.Razazian-IR8",
+      "server": "188.114.96.243",
+      "server_port": 864,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:851c:208b:4436:9cb2:4afd/128"
+      ],
+      "private_key": "QAGb8C6EIBqMCevLCt1J/MmJeCGXmGuTl28fDaDo7FE=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [183,86,207],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "M.Razazian-De8",
+      "detour": "M.Razazian-IR8",
+      "server": "188.114.96.243",
+      "server_port": 864,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:85ab:6bce:b7d9:d58f:21b6/128"
+      ],
+      "private_key": "KATFAHY9RDRuEsGb5WnguoMsMioVV31gOK4maWJ20H8=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [52,229,203],  
+
+      "mtu": 1120
+    }
+  ]
+}
